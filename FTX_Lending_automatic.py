@@ -1,4 +1,4 @@
-# Made by TAN YANN XU 080521; Lending compounder automated
+# Made by TYX 080521; Lending compounder automated
 import time
 import hmac
 import requests
@@ -121,7 +121,7 @@ def change_lending(string, string_lending, ftxkey, apisecret):
 
 
 if __name__ == '__main__':
-	print('Created by Tan Yann Xu')
+	print('Created by TYXu')
 	print('This function deals with lending for USD on FTX. Look into script for changes.')
 	APIinfofilename = 'API_keys.txt'
 	APIinfo = open(os.path.join(os.path.dirname(os.path.realpath(__file__)), 'config', APIinfofilename), 'r').readlines()
